@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const NavBar = () => {
     return (
@@ -6,7 +7,7 @@ const NavBar = () => {
 
             <div className="navbar bg-slate-400">
                 <div className="flex-1">
-                    <a className="btn btn-ghost normal-case text-xl">Fire News</a>
+                    <a className="btn btn-ghost normal-case text-xl"><Link to='/'>Fire News</Link></a>
                 </div>
                 <div className="flex-none gap-2">
                     <div className="form-control rounded-full w-10 md:w-44">
